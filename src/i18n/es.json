@@ -1,0 +1,34 @@
+{
+  "brand": "Pinedo Consulting Group",
+  "nav": { "home": "Inicio", "services": "Servicios", "pricing": "Precios", "about": "Nosotros", "contact": "Contacto", "lang": "English" },
+  "hero": {
+    "headline": "Contabilidad bilingüe y precisa para construcción y pequeños negocios",
+    "subhead": "Atención en español e inglés, precios claros y libros puntuales—cada mes.",
+    "ctaPrimary": "Agende una consulta",
+    "ctaSecondary": "Solicite una cotización"
+  },
+  "services": {
+    "title": "Servicios",
+    "cards": {
+      "bookkeeping": { "title": "Contabilidad" },
+      "payroll": { "title": "Nómina" },
+      "cleanup": { "title": "Limpieza / Regularización" },
+      "jobcost": { "title": "Costeo por obra (construcción)" },
+      "taxes": { "title": "Impuestos" },
+      "advisory": { "title": "Asesoría" }
+    }
+  },
+  "pricing": { "title": "Precios" },
+  "about": { "title": "Nosotros" },
+  "contact": {
+    "title":"Contacto",
+    "name":"Nombre",
+    "email":"Correo electrónico",
+    "phone":"Teléfono",
+    "business":"Nombre de la empresa",
+    "message":"¿Cómo podemos ayudarle?",
+    "send":"Enviar",
+    "thanks":"¡Gracias! Nos pondremos en contacto pronto."
+  },
+  "footer": { "rights": "Todos los derechos reservados." }
+}

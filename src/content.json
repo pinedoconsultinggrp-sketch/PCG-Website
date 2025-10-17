@@ -1,0 +1,84 @@
+{
+  "en": {
+    "hero": {
+      "headline": "Accurate, Bilingual Bookkeeping for Small Businesses",
+      "subhead": "English/Spanish support, clear pricing, and on-time books—every month."
+    },
+    "services": {
+      "bookkeeping": "Monthly financials, reconciliations, and clean books.",
+      "payroll": "Accurate payroll runs, filings, and year-end forms.",
+      "cleanup": "Fix backlogs and get current fast—then stay current.",
+      "jobcost": "Track labor, materials, and equipment to the job.",
+      "taxes": "Preparation and planning for owners and businesses.",
+      "advisory": "Dashboards, KPIs, and workflow improvements."
+    },
+    "pricing": {
+      "starter": {
+        "label": "Starter",
+        "price": "$300/mo",
+        "features": [
+          "Monthly books",
+          "Email support"
+        ]
+      },
+      "growth": {
+        "label": "Growth",
+        "price": "$600/mo",
+        "features": [
+          "Bi-weekly updates",
+          "Priority support"
+        ]
+      },
+      "pro": {
+        "label": "Pro",
+        "price": "Custom",
+        "features": [
+          "Job-costing",
+          "Payroll add-ons"
+        ]
+      }
+    },
+    "about": "We provide bilingual bookkeeping and advisory for small businesses in Central Texas. Clear communication, accurate records, and on-time delivery—every month."
+  },
+  "es": {
+    "hero": {
+      "headline": "Contabilidad bilingüe y precisa para tu negocio",
+      "subhead": "Atención en español e inglés, precios claros y libros puntuales—cada mes."
+    },
+    "services": {
+      "bookkeeping": "Estados mensuales, conciliaciones y libros en orden.",
+      "payroll": "Cierres de nómina, declaraciones y formularios anuales.",
+      "cleanup": "Elimine atrasos y póngase al día rápidamente—y manténgase así.",
+      "jobcost": "Rastree mano de obra, materiales y equipo por proyecto.",
+      "taxes": "Preparación y planeación para dueños y empresas.",
+      "advisory": "Tableros, KPI y mejoras de procesos."
+    },
+    "pricing": {
+      "starter": {
+        "label": "Inicial",
+        "price": "$299/mes",
+        "features": [
+          "Libros mensuales",
+          "Soporte por correo"
+        ]
+      },
+      "growth": {
+        "label": "Crecimiento",
+        "price": "$499/mes",
+        "features": [
+          "Actualizaciones quincenales",
+          "Soporte prioritario"
+        ]
+      },
+      "pro": {
+        "label": "Construcción Pro",
+        "price": "A medida",
+        "features": [
+          "Costeo por obra",
+          "Complementos de nómina"
+        ]
+      }
+    },
+    "about": "Ofrecemos contabilidad y asesoría bilingüe con enfoque en construcción y pequeñas empresas en Texas Central. Comunicación clara, registros precisos y entregas puntuales—cada mes."
+  }
+}

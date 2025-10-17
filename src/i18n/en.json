@@ -1,0 +1,34 @@
+{
+  "brand": "Pinedo Consulting Group",
+  "nav": { "home": "Home", "services": "Services", "pricing": "Pricing", "about": "About", "contact": "Contact", "lang": "Español" },
+  "hero": {
+    "headline": "Accurate, Bilingual Bookkeeping for Construction & Small Business",
+    "subhead": "English/Spanish support, clear pricing, and on-time books—every month.",
+    "ctaPrimary": "Book a Free Consult",
+    "ctaSecondary": "Get a Quote"
+  },
+  "services": {
+    "title": "Services",
+    "cards": {
+      "bookkeeping": { "title": "Bookkeeping" },
+      "payroll": { "title": "Payroll" },
+      "cleanup": { "title": "Cleanup / Catch-up" },
+      "jobcost": { "title": "Construction Job-Costing" },
+      "taxes": { "title": "Taxes" },
+      "advisory": { "title": "Advisory" }
+    }
+  },
+  "pricing": { "title": "Pricing" },
+  "about": { "title": "About" },
+  "contact": {
+    "title":"Contact",
+    "name":"Name",
+    "email":"Email",
+    "phone":"Phone",
+    "business":"Business name",
+    "message":"How can we help?",
+    "send":"Send",
+    "thanks":"Thanks! We'll get back to you shortly."
+  },
+  "footer": { "rights": "All rights reserved." }
+}
