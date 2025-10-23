@@ -18,9 +18,50 @@ export default function Contact() {
           <button className="rounded-2xl px-5 py-3 text-white md:col-span-2" style={{backgroundColor:"#0ea5a7"}}>
             Send
           </button>
-        </form>
-        {status==="sent" && <p className="mt-4 text-green-700">Thanks! We'll get back to you shortly.</p>}
-      </div>
-    </section>
+        <form
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  className="flex flex-col gap-4 max-w-md mx-auto"
+>
+  <input type="hidden" name="form-name" value="contact" />
+  <label className="flex flex-col">
+    <span className="text-sm font-semibold mb-1">Name</span>
+    <input
+      type="text"
+      name="name"
+      required
+      className="border rounded-lg px-3 py-2"
+    />
+  </label>
+
+  <label className="flex flex-col">
+    <span className="text-sm font-semibold mb-1">Email</span>
+    <input
+      type="email"
+      name="email"
+      required
+      className="border rounded-lg px-3 py-2"
+    />
+  </label>
+
+  <label className="flex flex-col">
+    <span className="text-sm font-semibold mb-1">Message</span>
+    <textarea
+      name="message"
+      rows={5}
+      required
+      className="border rounded-lg px-3 py-2"
+    ></textarea>
+  </label>
+
+  <button
+    type="submit"
+    className="bg-teal-600 text-white font-semibold rounded-lg px-4 py-2 hover:bg-teal-700"
+  >
+    Send Message
+  </button>
+</form>
+
   )
 }
