@@ -1,9 +1,9 @@
 export const BRAND = {
   name: "Pinedo Consulting Group",
-  taglineEn: "Bilingual bookkeeping & advisory for construction and small business.",
-  taglineEs: "Contabilidad y asesoría bilingüe para construcción y pequeños negocios.",
+  taglineEn: "Bookkeeping & advisory for construction and small business.",
+  taglineEs: "Contabilidad y asesoría para construcción y pequeños negocios.",
   primaryHex: "#0ea5a7",
-  phone: "+1 (555) 555-5555",
-  email: "hello@pinedocg.com",
-  city: "Austin, TX",
+  phone: "+1 (210) 417-7570",
+  email: "oscar@pinedoconsulting.com",
+  city: "Austin | San Antonio | Houston",
 };
