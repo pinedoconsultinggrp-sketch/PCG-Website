@@ -26,14 +26,15 @@ export default function Contact() {
         <div className="text-xs text-gray-500 mt-1">{debug}</div>
 
         <form
-          name="contact"
-          method="POST"
-          data-netlify="true"
-          netlify-honeypot="bot-field"
-          action={successUrl}
-          className="mt-6 grid gap-4 md:grid-cols-2"
+  name={isSpanish ? "contact-es" : "contact"}
+  method="POST"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+  action={isSpanish ? "/gracias" : "/thank-you"}
+  className="mt-6 grid gap-4 md:grid-cols-2"
+
         >
-          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="form-name" value={isSpanish ? "contact-es" : "contact"} />
           <p className="hidden">
             <label>Don’t fill this out: <input name="bot-field" /></label>
           </p>
