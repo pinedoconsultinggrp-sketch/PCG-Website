@@ -2,10 +2,10 @@ import React from "react";
 import { useI18n } from "../i18n/useI18n";
 
 export default function Contact() {
-  // ⬅️ add `lang` here
+  // Read translations + current language
   const { t, lang } = useI18n();
 
-  // handle es, es-MX, es-ES, etc.
+  // Handle es, es-MX, es-ES, etc.
   const isSpanish = String(lang || "").toLowerCase().startsWith("es");
 
   return (
@@ -18,7 +18,6 @@ export default function Contact() {
           method="POST"
           data-netlify="true"
           netlify-honeypot="bot-field"
-          // ⬅️ this is the only behavioral change: pick thank-you page by language
           action={isSpanish ? "/gracias" : "/thank-you"}
           className="mt-6 grid gap-4 md:grid-cols-2"
         >
