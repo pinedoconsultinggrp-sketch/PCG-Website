@@ -2,7 +2,7 @@ import React from "react";
 import { useI18n } from "../i18n/useI18n";
 
 export default function Contact() {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
 
   return (
     <section id="contact" className="bg-white">
@@ -14,7 +14,7 @@ export default function Contact() {
   method="POST"
   data-netlify="true"
   netlify-honeypot="bot-field"
-  action="/thank-you"
+  action={lang === "es" ? "/gracias" : "/thank-you"}
   className="mt-6 grid gap-4 md:grid-cols-2"
 >
   {/* Required by Netlify to identify the form */}
