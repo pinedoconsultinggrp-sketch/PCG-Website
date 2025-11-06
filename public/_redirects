@@ -1,4 +1,2 @@
 /thank-you  /thank-you.html 200
-# Only keep the next line if you actually have public/gracias.html:
-#/gracias    /gracias.html    200
-/*          /index.html      200
+/*          /index.html     200
