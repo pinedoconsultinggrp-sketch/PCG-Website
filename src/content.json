@@ -1,7 +1,7 @@
 {
   "en": {
     "hero": {
-      "headline": "Accurate, Bilingual Bookkeeping for Small Businesses",
+      "headline": "Accurate Bookkeeping for Small Businesses",
       "subhead": "English/Spanish support, clear pricing, and on-time books—every month."
     },
     "services": {
@@ -42,7 +42,7 @@
   },
   "es": {
     "hero": {
-      "headline": "Contabilidad bilingüe y precisa para tu negocio",
+      "headline": "Contabilidad Precisa Para tu Negocio",
       "subhead": "Atención en español e inglés, precios claros y libros puntuales—cada mes."
     },
     "services": {
@@ -56,7 +56,7 @@
     "pricing": {
       "starter": {
         "label": "Inicial",
-        "price": "$299/mes",
+        "price": "$300/mes",
         "features": [
           "Libros mensuales",
           "Soporte por correo"
@@ -64,7 +64,7 @@
       },
       "growth": {
         "label": "Crecimiento",
-        "price": "$499/mes",
+        "price": "$600/mes",
         "features": [
           "Actualizaciones quincenales",
           "Soporte prioritario"
