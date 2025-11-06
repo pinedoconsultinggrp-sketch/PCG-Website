@@ -2,69 +2,48 @@ import React from "react";
 import { useI18n } from "../i18n/useI18n";
 
 export default function Contact() {
-  // Read translations + current language
   const { t, lang } = useI18n();
 
-  // Handle es, es-MX, es-ES, etc.
-  const isSpanish = String(lang || "").toLowerCase().startsWith("es");
+  // Rock-solid Spanish detection (handles "es", "es-MX", "es-ES")
+  const isSpanishByLang = String(lang || "").toLowerCase().startsWith("es");
+  // Fallback: detect by translated title text (e.g., "Contacto")
+  const isSpanishByText = String(t?.contact?.title || "")
+    .toLowerCase()
+    .includes("contacto");
+
+  const isSpanish = isSpanishByLang || isSpanishByText;
+  const successUrl = isSpanish ? "/gracias" : "/thank-you";
+
+  // TEMP: debug line so we can see what's happening on the live page
+  // (remove this after it works)
+  const debug = `lang=${String(lang)} | isSpanish=${String(isSpanish)} | action=${successUrl}`;
 
   return (
     <section id="contact" className="bg-white">
       <div className="mx-auto max-w-6xl px-4 py-16">
         <h2 className="text-2xl md:text-3xl font-semibold">{t.contact.title}</h2>
 
+        <div className="text-xs text-gray-500 mt-1">{debug}</div>
+
         <form
           name="contact"
           method="POST"
           data-netlify="true"
           netlify-honeypot="bot-field"
-          action={isSpanish ? "/gracias" : "/thank-you"}
+          action={successUrl}
           className="mt-6 grid gap-4 md:grid-cols-2"
         >
-          {/* Required by Netlify to identify the form */}
           <input type="hidden" name="form-name" value="contact" />
-
-          {/* Honeypot field (invisible to humans, blocks spam bots) */}
           <p className="hidden">
-            <label>
-              Don’t fill this out: <input name="bot-field" />
-            </label>
+            <label>Don’t fill this out: <input name="bot-field" /></label>
           </p>
 
-          <input
-            name="name"
-            required
-            placeholder={t.contact.name}
-            className="border p-3 rounded-2xl"
-          />
-          <input
-            name="email"
-            required
-            type="email"
-            placeholder={t.contact.email}
-            className="border p-3 rounded-2xl"
-          />
-          <input
-            name="phone"
-            placeholder={t.contact.phone}
-            className="border p-3 rounded-2xl md:col-span-2"
-          />
-          <input
-            name="business"
-            placeholder={t.contact.business}
-            className="border p-3 rounded-2xl md:col-span-2"
-          />
-          <textarea
-            name="message"
-            placeholder={t.contact.message}
-            className="border p-3 rounded-2xl md:col-span-2"
-            rows={5}
-          />
-          <button
-            type="submit"
-            className="rounded-2xl px-5 py-3 text-white md:col-span-2"
-            style={{ backgroundColor: "#0EA5A7" }}
-          >
+          <input name="name" required placeholder={t.contact.name} className="border p-3 rounded-2xl" />
+          <input name="email" required type="email" placeholder={t.contact.email} className="border p-3 rounded-2xl" />
+          <input name="phone" placeholder={t.contact.phone} className="border p-3 rounded-2xl md:col-span-2" />
+          <input name="business" placeholder={t.contact.business} className="border p-3 rounded-2xl md:col-span-2" />
+          <textarea name="message" placeholder={t.contact.message} className="border p-3 rounded-2xl md:col-span-2" rows={5} />
+          <button type="submit" className="rounded-2xl px-5 py-3 text-white md:col-span-2" style={{ backgroundColor: "#0EA5A7" }}>
             {t.contact.send}
           </button>
         </form>
