@@ -23,8 +23,6 @@ export default function Contact() {
       <div className="mx-auto max-w-6xl px-4 py-16">
         <h2 className="text-2xl md:text-3xl font-semibold">{t.contact.title}</h2>
 
-        <div className="text-xs text-gray-500 mt-1">{debug}</div>
-
         <form
   name={isSpanish ? "contact-es" : "contact"}
   method="POST"
