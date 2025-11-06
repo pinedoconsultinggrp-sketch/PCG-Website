@@ -22,9 +22,16 @@
   </head>
   <body class="antialiased">
     <div id="root"></div>
-    <!-- Netlify needs this hidden template at build time -->
-<form name="contact" method="POST" data-netlify="true" hidden>
+    <!-- Netlify needs these hidden templates at build time -->
+<form name="contact" method="POST" data-netlify="true" action="/thank-you" hidden>
   <input type="hidden" name="form-name" value="contact" />
+  <input type="text" name="name" />
+  <input type="email" name="email" />
+  <textarea name="message"></textarea>
+</form>
+
+<form name="contact-es" method="POST" data-netlify="true" action="/gracias" hidden>
+  <input type="hidden" name="form-name" value="contact-es" />
   <input type="text" name="name" />
   <input type="email" name="email" />
   <textarea name="message"></textarea>
