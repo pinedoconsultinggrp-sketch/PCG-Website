@@ -17,6 +17,7 @@ export default function Footer() {
           <div className="pcg-label mb-3">{t.footer.links}</div>
           <ul className="space-y-2">
             <li><a href={`${base}#services`}>{t.nav.services}</a></li>
+            <li><a href={base === "/" ? "/taxes/" : "/es/impuestos/"}>{t.nav.taxes}</a></li>
             <li><a href={`${base}#pricing`}>{t.nav.pricing}</a></li>
             <li><a href={`${base}#about`}>{t.nav.about}</a></li>
             <li><a href={`${base}#contact`}>{t.nav.contact}</a></li>

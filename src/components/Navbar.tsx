@@ -9,9 +9,12 @@ export default function Navbar() {
   const other = lang === "en" ? "es" : "en";
   const otherHref = HOME[other];
 
+  const TAXES = { en: "/taxes/", es: "/es/impuestos/" } as const;
+
   const links = [
     { href: `${base}#home`, label: t.nav.home },
     { href: `${base}#services`, label: t.nav.services },
+    { href: TAXES[lang], label: t.nav.taxes },
     { href: `${base}#pricing`, label: t.nav.pricing },
     { href: `${base}#about`, label: t.nav.about },
     { href: `${base}#contact`, label: t.nav.contact },

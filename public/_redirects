@@ -1,22 +1,49 @@
+# Form confirmations
 /thank-you        /thank-you.html      200
 /gracias          /gracias.html        200
 
+# Legal
 /privacy          /privacy.html        200
 /terms            /terms.html          200
 /es/privacidad    /es-privacidad.html  200
 /es/terminos      /es-terminos.html    200
 
-/services/bookkeeping    /services/bookkeeping.html 200
-/services/payroll        /services/payroll.html 200
-/services/cleanup        /services/cleanup.html 200
-/services/taxes          /services/taxes.html 200
-/services/advisory       /services/advisory.html 200
+# Taxes moved out of /services into its own section
+/services/taxes           /taxes/          301!
+/services/taxes.html      /taxes/          301!
+/es/servicios/impuestos   /es/impuestos/   301!
+/servicios/impuestos.html /es/impuestos/   301!
 
-/es/servicios/contabilidad   /servicios/contabilidad.html 200
-/es/servicios/nomina         /servicios/nomina.html 200
-/es/servicios/regularizacion /servicios/regularizacion.html 200
-/es/servicios/impuestos      /servicios/impuestos.html 200
-/es/servicios/asesoria       /servicios/asesoria.html 200
+# Tax section
+/taxes            /taxes/              301
+/taxes/business               /taxes/business.html 200
+/taxes/personal               /taxes/personal.html 200
+/taxes/franchise-tax          /taxes/franchise-tax.html 200
+/taxes/sales-tax              /taxes/sales-tax.html 200
+/taxes/quarterly-estimates    /taxes/quarterly-estimates.html 200
+/taxes/itin                   /taxes/itin.html 200
+/taxes/deadlines              /taxes/deadlines.html 200
 
+/es/impuestos/    /impuestos/index.html 200
+/es/impuestos/negocios             /impuestos/negocios.html 200
+/es/impuestos/personales           /impuestos/personales.html 200
+/es/impuestos/impuesto-franquicia  /impuestos/impuesto-franquicia.html 200
+/es/impuestos/impuesto-ventas      /impuestos/impuesto-ventas.html 200
+/es/impuestos/pagos-trimestrales   /impuestos/pagos-trimestrales.html 200
+/es/impuestos/itin                 /impuestos/itin.html 200
+/es/impuestos/fechas-limite        /impuestos/fechas-limite.html 200
+
+# Services
+/services/bookkeeping      /services/bookkeeping.html 200
+/services/payroll          /services/payroll.html 200
+/services/cleanup          /services/cleanup.html 200
+/services/advisory         /services/advisory.html 200
+/es/servicios/contabilidad     /servicios/contabilidad.html 200
+/es/servicios/nomina           /servicios/nomina.html 200
+/es/servicios/regularizacion   /servicios/regularizacion.html 200
+/es/servicios/asesoria         /servicios/asesoria.html 200
+
+# Language roots and SPA fallback — no force flag, so a real file always wins
+/es               /es/                 301
 /es/*             /es/index.html       200
 /*                /index.html          200

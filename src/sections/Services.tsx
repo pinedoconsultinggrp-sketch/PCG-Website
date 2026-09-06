@@ -7,7 +7,7 @@ const SERVICE_PATHS = {
   bookkeeping: { en: "/services/bookkeeping", es: "/es/servicios/contabilidad" },
   payroll:     { en: "/services/payroll",     es: "/es/servicios/nomina" },
   cleanup:     { en: "/services/cleanup",     es: "/es/servicios/regularizacion" },
-  taxes:       { en: "/services/taxes",       es: "/es/servicios/impuestos" },
+  taxes:       { en: "/taxes/",               es: "/es/impuestos/" },
   advisory:    { en: "/services/advisory",    es: "/es/servicios/asesoria" },
 } as const;
 
