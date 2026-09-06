@@ -17,18 +17,14 @@ export default function Services() {
   const { t, lang } = useI18n();
   const c = useContent();
   return (
-    <section id="services" className="bg-gray-50">
-      <div className="mx-auto max-w-6xl px-4 py-16">
-        <h2 className="text-2xl md:text-3xl font-semibold">{t.services.title}</h2>
+    <section id="services" className="pcg-band-plain">
+      <div className="mx-auto max-w-6xl px-5 py-20">
+        <p className="pcg-label">{t.services.title}</p>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {keys.map((k) => (
-            <a
-              key={k}
-              href={SERVICE_PATHS[k][lang]}
-              className="rounded-2xl border p-5 bg-white block transition hover:shadow-md hover:border-gray-300"
-            >
-              <div className="font-medium">{t.services.cards[k].title}</div>
-              <p className="text-sm text-gray-600 mt-2">{c.services[k]}</p>
+            <a key={k} href={SERVICE_PATHS[k][lang]} className="pcg-card">
+              <span className="pcg-card-title block mb-2">{t.services.cards[k].title}</span>
+              <span className="pcg-card-body block">{c.services[k]}</span>
             </a>
           ))}
         </div>

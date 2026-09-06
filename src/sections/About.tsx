@@ -6,11 +6,11 @@ export default function About() {
   const { t } = useI18n();
   const c = useContent();
   return (
-    <section id="about" className="bg-gray-50">
-      <div className="mx-auto max-w-6xl px-4 py-16">
-        <h2 className="text-2xl md:text-3xl font-semibold">{t.about.title}</h2>
-        <p className="mt-4 text-gray-700 max-w-3xl">{c.about}</p>
+    <section id="about" className="pcg-band-plain">
+      <div className="mx-auto max-w-6xl px-5 py-20">
+        <p className="pcg-label">{t.about.title}</p>
+        <p className="pcg-prose mt-5 max-w-[62ch]">{c.about}</p>
       </div>
     </section>
-  )
+  );
 }

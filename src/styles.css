@@ -2,4 +2,152 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ─────────────────────────────────────────────────────────────────────
+   Pinedo Consulting Group — visual identity
+   Direction C, "Bluebonnet & Clay".
+
+   Every colour, typeface and shape value the site uses is defined in
+   this one block. Change a value here and it propagates everywhere,
+   including the static service and legal pages, which mirror these
+   same names. Nothing below should hard-code a colour.
+   ───────────────────────────────────────────────────────────────── */
+:root {
+  /* brand */
+  --pcg-navy:        #1F3A5F;  /* headings, wordmark — matches the logo */
+  --pcg-clay:        #C4562F;  /* accent: buttons, links, prices */
+  --pcg-clay-dark:   #A8451F;  /* accent on hover, accent text on light */
+  --pcg-sage:        #5F7A5A;  /* section labels, quiet second voice */
+
+  /* text */
+  --pcg-ink:         #2D2A33;
+  --pcg-ink-soft:    #63606B;
+
+  /* surfaces */
+  --pcg-bg:          #FFFCF8;  /* page ground, warm near-white */
+  --pcg-tint:        #FFF4EC;  /* hero and highlight bands */
+  --pcg-mist:        #F2F5F1;  /* alternating band, cool counterweight */
+  --pcg-surface:     #FFFFFF;  /* cards */
+
+  /* structure */
+  --pcg-line:        #EDE4DA;
+  --pcg-line-strong: #D9CCBF;
+
+  /* shape */
+  --pcg-radius:      14px;
+  --pcg-radius-pill: 999px;
+
+  /* type */
+  --pcg-display: Outfit, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --pcg-body:    Figtree, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
 html, body, #root { height: 100%; }
+
+body {
+  background: var(--pcg-bg);
+  color: var(--pcg-ink);
+  font-family: var(--pcg-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: var(--pcg-display);
+  letter-spacing: -0.03em;
+  color: var(--pcg-navy);
+  text-wrap: balance;
+}
+
+/* Plain CSS, deliberately placed after the Tailwind layers so these win
+   over utilities. Layout stays in utility classes in the components. */
+
+.pcg-header {
+  background: color-mix(in srgb, var(--pcg-bg) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--pcg-line);
+}
+.pcg-brand { font-family: var(--pcg-display); font-weight: 700; color: var(--pcg-navy); letter-spacing: -0.02em; }
+.pcg-navlink { color: var(--pcg-ink-soft); transition: color .15s ease; }
+.pcg-navlink:hover { color: var(--pcg-clay); }
+.pcg-lang {
+  border: 1px solid var(--pcg-line-strong); border-radius: var(--pcg-radius-pill);
+  color: var(--pcg-ink-soft); padding: 5px 14px; font-size: 14px; font-weight: 500;
+  transition: border-color .15s ease, color .15s ease;
+}
+.pcg-lang:hover { border-color: var(--pcg-clay); color: var(--pcg-clay); }
+
+.pcg-hero { background: var(--pcg-tint); }
+.pcg-hero p.lede { color: var(--pcg-ink-soft); }
+
+.pcg-btn {
+  display: inline-block; background: var(--pcg-clay); color: #fff;
+  border: 1px solid var(--pcg-clay); border-radius: var(--pcg-radius-pill);
+  padding: 13px 26px; font-weight: 600; text-align: center;
+  transition: background .15s ease, border-color .15s ease;
+}
+.pcg-btn:hover { background: var(--pcg-clay-dark); border-color: var(--pcg-clay-dark); }
+.pcg-btn-ghost {
+  display: inline-block; background: transparent; color: var(--pcg-navy);
+  border: 1px solid var(--pcg-line-strong); border-radius: var(--pcg-radius-pill);
+  padding: 13px 26px; font-weight: 600; text-align: center;
+  transition: border-color .15s ease, color .15s ease;
+}
+.pcg-btn-ghost:hover { border-color: var(--pcg-navy); }
+
+.pcg-band-mist { background: var(--pcg-mist); }
+.pcg-band-plain { background: var(--pcg-bg); }
+.pcg-band-surface { background: var(--pcg-surface); }
+
+.pcg-label {
+  font-size: 12px; font-weight: 700; letter-spacing: .13em; text-transform: uppercase;
+  color: var(--pcg-sage);
+}
+
+.pcg-card {
+  display: block; background: var(--pcg-surface); border: 1px solid var(--pcg-line);
+  border-radius: var(--pcg-radius); padding: 22px;
+  transition: border-color .15s ease, transform .15s ease, box-shadow .15s ease;
+}
+.pcg-card:hover {
+  border-color: var(--pcg-clay); transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(45, 42, 51, .07);
+}
+.pcg-card-title { font-family: var(--pcg-display); font-weight: 600; font-size: 17px; color: var(--pcg-navy); }
+.pcg-card-body { color: var(--pcg-ink-soft); font-size: 14.5px; line-height: 1.55; }
+
+.pcg-tier {
+  background: var(--pcg-surface); border: 1px solid var(--pcg-line);
+  border-radius: var(--pcg-radius); padding: 26px;
+}
+.pcg-tier-name { font-family: var(--pcg-display); font-weight: 600; font-size: 17px; color: var(--pcg-navy); }
+.pcg-tier-price {
+  font-family: var(--pcg-display); font-weight: 700; font-size: 34px; line-height: 1.1;
+  color: var(--pcg-clay); letter-spacing: -.03em; font-variant-numeric: tabular-nums;
+}
+.pcg-tier-feature { color: var(--pcg-ink-soft); font-size: 14.5px; }
+.pcg-tier-feature::before { content: "—"; color: var(--pcg-sage); margin-right: 8px; }
+
+.pcg-prose { color: var(--pcg-ink-soft); font-size: 17px; line-height: 1.7; }
+
+.pcg-field {
+  width: 100%; background: var(--pcg-surface); color: var(--pcg-ink);
+  border: 1px solid var(--pcg-line-strong); border-radius: var(--pcg-radius);
+  padding: 13px 15px; font-family: var(--pcg-body); font-size: 15px;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.pcg-field::placeholder { color: #9A96A0; }
+.pcg-field:focus {
+  outline: none; border-color: var(--pcg-clay);
+  box-shadow: 0 0 0 3px rgba(196, 86, 47, .13);
+}
+
+.pcg-footer { background: var(--pcg-mist); border-top: 1px solid var(--pcg-line); }
+.pcg-footer a { color: var(--pcg-ink-soft); transition: color .15s ease; }
+.pcg-footer a:hover { color: var(--pcg-clay); }
+.pcg-footer-head { font-family: var(--pcg-display); font-weight: 600; color: var(--pcg-navy); }
+
+:focus-visible { outline: 2px solid var(--pcg-clay); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+  .pcg-card:hover { transform: none; }
+}
