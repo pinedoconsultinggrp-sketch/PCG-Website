@@ -18,6 +18,5 @@
 /es/servicios/impuestos      /servicios/impuestos.html 200
 /es/servicios/asesoria       /servicios/asesoria.html 200
 
-/es               /es/                 301!
 /es/*             /es/index.html       200
 /*                /index.html          200
