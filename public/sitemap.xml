@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://pinedoconsulting.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinedoconsulting.com/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pinedoconsulting.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pinedoconsulting.com/" />
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://pinedoconsulting.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinedoconsulting.com/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pinedoconsulting.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pinedoconsulting.com/" />
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://pinedoconsulting.com/services/bookkeeping</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinedoconsulting.com/services/bookkeeping" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pinedoconsulting.com/es/servicios/contabilidad" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://pinedoconsulting.com/es/servicios/contabilidad</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinedoconsulting.com/services/bookkeeping" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pinedoconsulting.com/es/servicios/contabilidad" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://pinedoconsulting.com/services/payroll</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinedoconsulting.com/services/payroll" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pinedoconsulting.com/es/servicios/nomina" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://pinedoconsulting.com/es/servicios/nomina</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinedoconsulting.com/services/payroll" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pinedoconsulting.com/es/servicios/nomina" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://pinedoconsulting.com/services/cleanup</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinedoconsulting.com/services/cleanup" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pinedoconsulting.com/es/servicios/regularizacion" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://pinedoconsulting.com/es/servicios/regularizacion</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinedoconsulting.com/services/cleanup" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pinedoconsulting.com/es/servicios/regularizacion" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://pinedoconsulting.com/services/taxes</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinedoconsulting.com/services/taxes" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pinedoconsulting.com/es/servicios/impuestos" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://pinedoconsulting.com/es/servicios/impuestos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinedoconsulting.com/services/taxes" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pinedoconsulting.com/es/servicios/impuestos" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://pinedoconsulting.com/services/advisory</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinedoconsulting.com/services/advisory" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pinedoconsulting.com/es/servicios/asesoria" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://pinedoconsulting.com/es/servicios/asesoria</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinedoconsulting.com/services/advisory" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pinedoconsulting.com/es/servicios/asesoria" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://pinedoconsulting.com/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinedoconsulting.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pinedoconsulting.com/es/privacidad" />
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://pinedoconsulting.com/es/privacidad</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinedoconsulting.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pinedoconsulting.com/es/privacidad" />
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://pinedoconsulting.com/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinedoconsulting.com/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pinedoconsulting.com/es/terminos" />
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://pinedoconsulting.com/es/terminos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinedoconsulting.com/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pinedoconsulting.com/es/terminos" />
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

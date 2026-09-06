@@ -1,3 +1,23 @@
-/thank-you  /thank-you.html 200
-/gracias    /gracias.html 200
-/*          /index.html   200
+/thank-you        /thank-you.html      200
+/gracias          /gracias.html        200
+
+/privacy          /privacy.html        200
+/terms            /terms.html          200
+/es/privacidad    /es-privacidad.html  200
+/es/terminos      /es-terminos.html    200
+
+/services/bookkeeping    /services/bookkeeping.html 200
+/services/payroll        /services/payroll.html 200
+/services/cleanup        /services/cleanup.html 200
+/services/taxes          /services/taxes.html 200
+/services/advisory       /services/advisory.html 200
+
+/es/servicios/contabilidad   /servicios/contabilidad.html 200
+/es/servicios/nomina         /servicios/nomina.html 200
+/es/servicios/regularizacion /servicios/regularizacion.html 200
+/es/servicios/impuestos      /servicios/impuestos.html 200
+/es/servicios/asesoria       /servicios/asesoria.html 200
+
+/es               /es/                 301!
+/es/*             /es/index.html       200
+/*                /index.html          200

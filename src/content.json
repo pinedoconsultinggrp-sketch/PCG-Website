@@ -2,22 +2,22 @@
   "en": {
     "hero": {
       "headline": "Accurate Bookkeeping for Small Businesses",
-      "subhead": "English/Spanish support, clear pricing, and on-time books—every month."
+      "subhead": "English/Spanish support, clear pricing, and quarterly financials delivered on time."
     },
     "services": {
-      "bookkeeping": "Monthly financials, reconciliations, and clean books.",
+      "bookkeeping": "Reconciled accounts in QuickBooks Online, with quarterly financial statements.",
       "payroll": "Accurate payroll runs, filings, and year-end forms.",
       "cleanup": "Fix backlogs and get current fast—then stay current.",
-      "jobcost": "Track labor, materials, and equipment to the job.",
-      "taxes": "Preparation and planning for owners and businesses.",
-      "advisory": "Dashboards, KPIs, and workflow improvements."
+      "taxes": "Business and personal returns, sales tax, franchise tax and estimates.",
+      "advisory": "Working sessions on cash flow, margin and the decisions ahead."
     },
     "pricing": {
       "starter": {
         "label": "Starter",
         "price": "$300/mo",
         "features": [
-          "Monthly books",
+          "Quarterly financial statements",
+          "Annual reports",
           "Email support"
         ]
       },
@@ -25,7 +25,8 @@
         "label": "Growth",
         "price": "$600/mo",
         "features": [
-          "Bi-weekly updates",
+          "Everything in Starter",
+          "Ongoing transaction review",
           "Priority support"
         ]
       },
@@ -33,32 +34,33 @@
         "label": "Pro",
         "price": "Custom",
         "features": [
-          "Job-costing",
-          "Payroll add-ons"
+          "Everything in Growth",
+          "Payroll",
+          "Business & personal tax filings"
         ]
       }
     },
-    "about": "We provide bilingual bookkeeping and advisory for small businesses in Central Texas. Clear communication, accurate records, and on-time delivery—every month."
+    "about": "We provide bilingual bookkeeping, payroll and tax services to small businesses across Austin, San Antonio and Houston — including construction firms, contractors and trades. QuickBooks ProAdvisors with more than ten years of experience and over 150 clients. Clear communication, accurate records, and reports delivered on time."
   },
   "es": {
     "hero": {
       "headline": "Contabilidad Precisa Para tu Negocio",
-      "subhead": "Atención en español e inglés, precios claros y libros puntuales—cada mes."
+      "subhead": "Atención en español e inglés, precios claros y estados financieros trimestrales puntuales."
     },
     "services": {
-      "bookkeeping": "Estados mensuales, conciliaciones y libros en orden.",
+      "bookkeeping": "Cuentas conciliadas en QuickBooks Online, con estados financieros trimestrales.",
       "payroll": "Cierres de nómina, declaraciones y formularios anuales.",
       "cleanup": "Elimine atrasos y póngase al día rápidamente—y manténgase así.",
-      "jobcost": "Rastree mano de obra, materiales y equipo por proyecto.",
-      "taxes": "Preparación y planeación para dueños y empresas.",
-      "advisory": "Tableros, KPI y mejoras de procesos."
+      "taxes": "Declaraciones de empresa y personales, ventas, franchise tax y pagos estimados.",
+      "advisory": "Sesiones de trabajo sobre flujo de efectivo, márgenes y decisiones."
     },
     "pricing": {
       "starter": {
         "label": "Inicial",
         "price": "$300/mes",
         "features": [
-          "Libros mensuales",
+          "Estados financieros trimestrales",
+          "Reportes anuales",
           "Soporte por correo"
         ]
       },
@@ -66,19 +68,21 @@
         "label": "Crecimiento",
         "price": "$600/mes",
         "features": [
-          "Actualizaciones quincenales",
+          "Todo lo de Inicial",
+          "Revisión continua de transacciones",
           "Soporte prioritario"
         ]
       },
       "pro": {
-        "label": "Construcción Pro",
+        "label": "Pro",
         "price": "A medida",
         "features": [
-          "Costeo por obra",
-          "Complementos de nómina"
+          "Todo lo de Crecimiento",
+          "Nómina",
+          "Impuestos de empresa y personales"
         ]
       }
     },
-    "about": "Ofrecemos contabilidad y asesoría bilingüe con enfoque en construcción y pequeñas empresas en Texas Central. Comunicación clara, registros precisos y entregas puntuales—cada mes."
+    "about": "Ofrecemos servicios bilingües de contabilidad, nómina e impuestos a pequeñas empresas en Austin, San Antonio y Houston — incluyendo empresas de construcción, contratistas y oficios. Somos QuickBooks ProAdvisors con más de diez años de experiencia y más de 150 clientes. Comunicación clara, registros precisos y reportes entregados a tiempo."
   }
 }

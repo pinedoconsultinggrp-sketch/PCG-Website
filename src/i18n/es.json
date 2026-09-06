@@ -1,6 +1,13 @@
 {
   "brand": "Pinedo Consulting Group",
-  "nav": { "home": "Inicio", "services": "Servicios", "pricing": "Precios", "about": "Nosotros", "contact": "Contacto", "lang": "English" },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "lang": "English"
+  },
   "hero": {
     "headline": "Contabilidad Precisa para Construcción y Pequeños Negocios",
     "subhead": "Atención en español e inglés, precios claros y libros puntuales—cada mes.",
@@ -10,25 +17,44 @@
   "services": {
     "title": "Servicios",
     "cards": {
-      "bookkeeping": { "title": "Contabilidad" },
-      "payroll": { "title": "Nómina" },
-      "cleanup": { "title": "Limpieza / Regularización" },
-      "jobcost": { "title": "Costeo por obra (construcción)" },
-      "taxes": { "title": "Impuestos" },
-      "advisory": { "title": "Asesoría" }
+      "bookkeeping": {
+        "title": "Contabilidad"
+      },
+      "payroll": {
+        "title": "Nómina"
+      },
+      "cleanup": {
+        "title": "Limpieza / Regularización"
+      },
+      "taxes": {
+        "title": "Impuestos"
+      },
+      "advisory": {
+        "title": "Asesoría"
+      }
     }
   },
-  "pricing": { "title": "Precios" },
-  "about": { "title": "Nosotros" },
-  "contact": {
-    "title":"Contacto",
-    "name":"Nombre",
-    "email":"Correo electrónico",
-    "phone":"Teléfono",
-    "business":"Nombre de la empresa",
-    "message":"¿Cómo podemos ayudarle?",
-    "send":"Enviar",
-    "thanks":"¡Gracias! Nos pondremos en contacto pronto."
+  "pricing": {
+    "title": "Precios"
   },
-  "footer": { "rights": "Todos los derechos reservados." }
+  "about": {
+    "title": "Nosotros"
+  },
+  "contact": {
+    "title": "Contacto",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "business": "Nombre de la empresa",
+    "message": "¿Cómo podemos ayudarle?",
+    "send": "Enviar",
+    "thanks": "¡Gracias! Nos pondremos en contacto pronto."
+  },
+  "footer": {
+    "links": "Enlaces",
+    "legal": "Legal",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "rights": "Todos los derechos reservados."
+  }
 }
