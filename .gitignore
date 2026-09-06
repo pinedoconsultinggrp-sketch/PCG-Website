@@ -1,0 +1,24 @@
+# Dependencies — installed per-platform, never committed.
+# A Windows node_modules in the repo breaks Linux CI builds.
+node_modules/
+
+# Build output — Netlify regenerates this on every deploy.
+dist/
+
+# Build metadata
+tsconfig.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
